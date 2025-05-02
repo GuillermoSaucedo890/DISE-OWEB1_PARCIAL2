@@ -1,0 +1,46 @@
+<HTML>
+<HEAD>
+<TITLE></TITLE>
+<link rel="stylesheet" href="estiloform.css" />
+</HEAD>
+
+<BODY>
+
+<FORM acion="paginaRespuestas.html" method="POST">
+
+
+<P><B>Nombre:</B><BR>
+<INPUT type=text name="nom" size="20" placeholder="Escriba su nombre"></P>
+
+
+<P><B>Email:</B><BR>
+<INPUT type=text name="email" size="20" placeholder="correo@empresa.com"></P>
+
+<P><B>Asunto</B><BR>
+<INPUT type=radio name="asunto" value="a"> Pedir Presupuesto Web<BR>
+<INPUT type=radio name="asunto" value="b"> Solicitar Cita Previa<BR>
+<INPUT type=radio name="asunto" value="c"> Otros<BR>
+
+<P><B>¿Como nos has conocido?</B><BR>
+
+<INPUT type=checkbox name="conoc" value="a"> Un amigo 
+<INPUT type=checkbox name="conoc" value="b"> Googleando 
+<INPUT type=checkbox name="conoc" value="c"> Buzoneo
+<INPUT type=checkbox name="conoc" value="d"> Otros </P>
+
+<P><B>Escriba su mensaje</B><BR>
+<TEXTAREA name="caja1" rows="4" cols="50">
+</TEXTAREA></P>
+
+<P><INPUT type=checkbox name="aviso" value="a"> He leído y acepto el <a href="">aviso legal y la política de privacidad</a></P>
+
+<P> <INPUT type=submit name="aceptar" value="Enviar formulario">
+<INPUT type=submit name="cancelar" value="Cancelar">
+
+</FORM>
+
+
+</BODY>
+
+
+</HTML>
